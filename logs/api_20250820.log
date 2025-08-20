@@ -1,0 +1,31 @@
+2025-08-20 15:02:56,527 - id_collector_api - INFO - Initializing database...
+2025-08-20 15:02:56,558 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 15:03:17,804 - id_collector_api - INFO - Fetching all device IDs with skip=0, limit=100
+2025-08-20 15:25:10,011 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:05:38,553 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:05:38,557 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 16:06:25,658 - id_collector_api - INFO - Fetching all device IDs with skip=0, limit=100
+2025-08-20 16:06:57,440 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:09:45,499 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:10:09,309 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:11:24,968 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:11:24,981 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 16:11:49,981 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:14:16,969 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:14:16,973 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 16:14:24,456 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:14:24,465 - id_collector_api - ERROR - Error storing device IDs: 'dict' object has no attribute 'advertising_id'
+2025-08-20 16:14:47,936 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:14:47,940 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 16:15:26,472 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:15:26,491 - id_collector_api - ERROR - Error storing device IDs: 'dict' object has no attribute 'advertising_id'
+2025-08-20 16:16:09,069 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:16:09,074 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 16:16:23,166 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:16:42,789 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:16:42,795 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 16:21:09,392 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:21:09,399 - id_collector_api - INFO - Database initialized successfully
+2025-08-20 16:21:31,522 - id_collector_api - INFO - Received request to store IDs for device: 741f1712d573dec5
+2025-08-20 16:22:46,932 - id_collector_api - INFO - Initializing database...
+2025-08-20 16:22:46,936 - id_collector_api - INFO - Database initialized successfully
