@@ -29,7 +29,7 @@ class DeviceIdData(DeviceIdCreate):
     updated_at: datetime
     
     class Config:
-        from_attributes = True  # Di Pydantic v2, orm_mode diganti dengan from_attributes
+        from_attributes = True
 
 class DeviceIdResponse(BaseModel):
     success: bool

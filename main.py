@@ -9,17 +9,14 @@ from app.models import DeviceIdData, DeviceIdResponse, DeviceIdCreate
 from app.database import get_device_ids, get_device_id_by_android_id, add_device_id, SessionLocal, init_db
 from app.utils import get_db, setup_logger
 
-# Setup application logger
 logger = setup_logger()
 
-# Initialize FastAPI app
 app = FastAPI(
     title="ID Collector API",
     description="API for collecting and retrieving Android device IDs",
     version="1.0.0"
 )
 
-# Configure CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # In production, replace with specific origins
@@ -28,20 +25,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Initialize database
 @app.on_event("startup")
 async def startup_db_client():
     logger.info("Initializing database...")
     init_db()
     logger.info("Database initialized successfully")
 
-# API endpoints
 @app.post("/api/store-ids", response_model=DeviceIdResponse)
 async def store_ids(device_data: DeviceIdCreate, db=Depends(get_db)):
     try:
         logger.info(f"Received request to store IDs for device: {device_data.android_id}")
         
-        # Add device ID to database
         result = add_device_id(db, device_data)
         
         return {
